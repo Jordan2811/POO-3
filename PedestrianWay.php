@@ -1,8 +1,6 @@
 <?php
 
 require_once 'Bicycle.php';
-
-
 final class PedestrianWay extends HighWay
 {
     protected $nbLane = 1;
