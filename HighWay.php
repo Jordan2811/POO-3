@@ -2,9 +2,9 @@
 
 abstract class HighWay
 {
-    protected $currentVehicles; //array
-    protected $nbLane; //int
-    protected $maxSpeed; //int
+    protected $currentVehicles;
+    protected $nbLane;
+    protected $maxSpeed; 
 
     abstract public function addVehicle($objet);
 
